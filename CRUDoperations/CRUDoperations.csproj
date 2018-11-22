@@ -153,6 +153,9 @@
       <LastGenOutput>MyModel.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Screenshots\Edit.png" />
+    <Content Include="Screenshots\Index Page.png" />
+    <Content Include="Screenshots\Search.png" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
