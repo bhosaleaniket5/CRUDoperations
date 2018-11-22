@@ -30,7 +30,7 @@ namespace CRUDoperations.Controllers
             using (MyDataEntities dc = new MyDataEntities())
             {
                 var v = dc.Employees.Where(a => a.EmployeeID == id).FirstOrDefault();
-                return view(v);
+                return View(v);
             }
 
         }

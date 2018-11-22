@@ -1,6 +1,7 @@
-﻿@model DatatableCRUD.Models.Employee
+﻿@model CRUDoperations.Models.Employee
+
 <h2>Save</h2>
-@using (Html.BeginForm("save", "home", FormMethod.Post, new { id = "popupForm" }))
+@using (Html.BeginForm("Save", "home", FormMethod.Post, new { id = "popupForm" }))
 {
     if (Model != null && Model.EmployeeID > 0)
     {
@@ -36,4 +37,5 @@
     <div>
         <input type="submit" value="Save" />
     </div>
+}
 
